@@ -1,6 +1,6 @@
 import curry from ".";
 
-describe.skip("curry", () => {
+describe("curry", () => {
   const sum = (a, b) => a + b;
 
   const increment = curry(sum, 1);

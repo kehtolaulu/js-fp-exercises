@@ -1,6 +1,6 @@
 import uncurry from ".";
 
-describe.skip("uncurry", () => {
+describe("uncurry", () => {
   const curriedSum = (a) => (b) => a + b;
 
   const regularSum = uncurry(curriedSum);
